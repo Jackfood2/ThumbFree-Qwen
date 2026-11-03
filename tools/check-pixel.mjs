@@ -138,7 +138,7 @@ assert.doesNotMatch(await page.$eval('.hero .badges', (e) => e.textContent), /Co
 const play = await page.$eval('.hero a.badge[data-store="android"]', (a) => a.href);
 assert.equal(play, 'https://play.google.com/store/apps/details?id=io.github.kabrapratik28.thumbfree&referrer=utm_source%3Dfacebook%26utm_campaign%3Dlaunch%2Bweek');
 const apple = await page.$eval('.hero a.badge[data-store="ios"]', (a) => a.href);
-assert.equal(apple, 'https://apps.apple.com/app/id6817631006', 'no App Store campaign without a provider token');
+assert.equal(apple, 'https://apps.apple.com/app/id6817631006?pt=129475894&ct=launchweek&mt=8', 'the App Store link names the campaign');
 ({ page } = await open({ live: 'placeholder' }, ctx));
 assert.equal(await page.$eval('.hero .badge[data-store="ios"]', (e) => e.tagName + ' ' + e.textContent), 'SPAN Coming soon to the App Store',
   'a live flag with the placeholder App Store URL still says Coming soon');

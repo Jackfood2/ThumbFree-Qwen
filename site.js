@@ -16,7 +16,7 @@ const STORES = {
 
 // App Store Connect's provider token, a number (Analytics > Acquisition > Campaigns). Optional: with it, App Store
 // links carry the ad's utm_campaign as the campaign, so App Store Connect counts installs per campaign.
-const APP_STORE_PROVIDER_TOKEN = '';
+const APP_STORE_PROVIDER_TOKEN = '129475894';
 
 // The Meta Pixel ID from Events Manager, a number. Empty means no pixel code loads at all.
 const PIXEL_ID = '';
