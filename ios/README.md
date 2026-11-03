@@ -73,13 +73,14 @@ Going back by itself needs a private iOS interface to learn which app you were t
 
 ## Speech models
 
-On first launch, Get started downloads the English model: NVIDIA Parakeet TDT 0.6B v2 in FluidInference's Core ML
-conversion, about 465 MB with the speech check. If one of your iPhone's languages is among the Multilingual model's 24
-languages besides English, it downloads that model instead: Parakeet TDT 0.6B v3, about 484 MB. The first screen offers
-the other model, and Settings has both. Both are NVIDIA's, under CC BY 4.0. Downloads come from Hugging Face at pinned
-revisions, keep going in the background, use Wi-Fi unless you allow mobile data, and need about 1.5 GB of free space.
-Every file is checked by size and SHA-256 before it is used. The first start after a download takes about half a minute
-while iOS prepares the model for your iPhone, and again after an update of ThumbFree or iOS.
+On first launch, the first screen asks which language you speak, then downloads that model: for English, NVIDIA Parakeet
+TDT 0.6B v2 in FluidInference's Core ML conversion, about 465 MB with the speech check; for Other languages, Parakeet
+TDT 0.6B v3, about 484 MB. The answer listed first is the iPhone's guess: Other languages when one of the iPhone's
+languages is among the Multilingual model's 24 besides English. Settings has both. Both are NVIDIA's, under CC BY 4.0.
+Downloads come from Hugging Face at pinned revisions, keep going in the background, use Wi-Fi unless you allow mobile
+data, and need about 1.5 GB of free space. Every file is checked by size and SHA-256 before it is used. The first start
+after a download takes about half a minute while iOS prepares the model for your iPhone, and again after an update of
+ThumbFree or iOS.
 
 ## Speed and accuracy
 

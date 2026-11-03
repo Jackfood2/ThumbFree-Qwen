@@ -4,11 +4,10 @@ ThumbFree is a keyboard with a mic. It turns your speech into text on your iPhon
 
 ## Set it up
 
-1. **Open ThumbFree** and tap **Get started**. The speech model starts downloading (see step 4).
-2. **Allow the microphone** when iOS asks.
-3. **Add the keyboard.** Open Settings > General > Keyboard > Keyboards > Add New Keyboard, and choose ThumbFree. Then tap ThumbFree in that list and turn on **Allow Full Access**. (Or in Settings, tap Apps, then ThumbFree, then Keyboards.)
-4. **Download the speech model.** Get started downloads it, and the last welcome screen shows how far it is (later, Settings and the Try tab). The English model is about 465 MB, and you need about 1.5 GB of free space to download it. It downloads on Wi-Fi unless you turn off Download on Wi-Fi only in Settings.
-5. **Wait for the first start.** The first time after the download, ThumbFree takes about half a minute to prepare the model for your iPhone. This happens again after you update ThumbFree or iOS.
+1. **Open ThumbFree and pick your language:** English, or Other languages (one model for 25 European languages). The speech model downloads on that screen. English is about 465 MB, Other languages about 484 MB, and you need about 1.5 GB of free space. It downloads on Wi-Fi unless you turn off Download on Wi-Fi only in Settings. You can leave ThumbFree while it downloads.
+2. **Wait for speech to get ready.** After the download, ThumbFree prepares the model for your iPhone, about half a minute the first time, then moves on by itself. This happens again after you update ThumbFree or iOS.
+3. **Add the keyboard.** Tap **Open Settings**. A short video floats over Settings and shows the taps: Keyboards, turn on ThumbFree, turn on **Allow Full Access**, then Allow. Tap ThumbFree at the top left to come back. (Or open Settings > General > Keyboard > Keyboards > Add New Keyboard, choose ThumbFree, then tap it and turn on Allow Full Access.)
+4. **Try it.** Back in ThumbFree, the keyboard is up. Hold the globe key and choose ThumbFree, then tap the yellow mic. **Allow the microphone** when iOS asks, the first time only.
 
 ## Use it
 
@@ -35,7 +34,7 @@ No, you go back yourself: swipe right along the bottom edge of the screen, or ta
 Yes. Once the speech model is downloaded, ThumbFree works in Airplane Mode.
 
 **Which languages does it understand?**
-The English model is the one we recommend. The Multilingual model understands 25 European languages; download it in Settings > Speech model.
+The English model is the one we recommend. The Multilingual model understands 25 European languages: choose Other languages on the first screen, or switch later in Settings > Speech model.
 
 **Where are my recordings?**
 In the History tab, on this iPhone only. Nothing is uploaded, and History is left out of backups. Choose how long takes are kept in Settings > History.

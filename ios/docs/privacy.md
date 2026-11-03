@@ -1,6 +1,6 @@
 # ThumbFree for iPhone: privacy policy
 
-Last updated: September 29, 2026
+Last updated: November 3, 2026
 
 ThumbFree turns your speech into text on your iPhone. It is built so that your voice and your words stay with you.
 
@@ -26,7 +26,7 @@ When you tap Copy, the text goes to this iPhone's clipboard only, not to your ot
 
 ## The speech model download
 
-When you set up ThumbFree, it downloads its English speech model (about 465 MB) from Hugging Face (huggingface.co), over Wi-Fi unless you allow mobile data. If you choose the Multilingual model, it downloads that one the same way. This is an ordinary HTTPS download of public files: as with any download, Hugging Face's servers see your IP address and which file was requested. No audio, text or information about you is sent with it. ThumbFree checks every file against a fixed fingerprint (SHA-256) before it uses it. After that, ThumbFree works without the internet. Hugging Face's own privacy policy covers their servers: https://huggingface.co/privacy
+When you set up ThumbFree, it downloads a speech model from Hugging Face (huggingface.co), over Wi-Fi unless you allow mobile data: English (about 465 MB) or the Multilingual model (about 484 MB), whichever you pick on the first screen. To list the likely choice first, ThumbFree reads your iPhone's list of languages, on your iPhone only. If you switch models later, it downloads the other one the same way. This is an ordinary HTTPS download of public files: as with any download, Hugging Face's servers see your IP address and which file was requested. No audio, text or information about you is sent with it. ThumbFree checks every file against a fixed fingerprint (SHA-256) before it uses it. After that, ThumbFree works without the internet. Hugging Face's own privacy policy covers their servers: https://huggingface.co/privacy
 
 ## Permissions, and why
 
