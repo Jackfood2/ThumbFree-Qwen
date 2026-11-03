@@ -11,8 +11,8 @@
 </p>
 
 <p align="center">
-  <a href="https://play.google.com/store/apps/details?id=io.github.kabrapratik28.thumbfree"><img src="docs/brand/common/readme/get-it-on-google-play.png" width="200" alt="Get it on Google Play"></a>
-  <a href="https://apps.apple.com/app/id6817631006"><img src="docs/brand/common/readme/download-on-the-app-store.svg" height="58" alt="Download on the App Store"></a>
+  <a href="https://play.google.com/store/apps/details?id=io.github.kabrapratik28.thumbfree"><img src="docs/brand/common/readme/get-it-on-google-play.png" width="208" align="middle" alt="Get it on Google Play"></a>
+  <a href="https://apps.apple.com/app/id6817631006"><img src="docs/brand/common/readme/download-on-the-app-store.svg" width="162" align="middle" alt="Download on the App Store"></a>
 </p>
 
 <p align="center">
