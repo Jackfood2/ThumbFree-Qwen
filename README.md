@@ -11,12 +11,12 @@
 </p>
 
 <p align="center">
-  <a href="https://kabrapratik28.github.io/ThumbFree/beta/"><img src="docs/brand/common/readme/join-android-test.svg" width="244" alt="Join the Android test"></a>
+  <a href="https://play.google.com/store/apps/details?id=io.github.kabrapratik28.thumbfree"><img src="docs/brand/common/readme/get-it-on-google-play.png" width="200" alt="Get it on Google Play"></a>
+  <a href="https://apps.apple.com/app/id6817631006"><img src="docs/brand/common/readme/download-on-the-app-store.svg" height="58" alt="Download on the App Store"></a>
 </p>
 
 <p align="center">
-  For Android 13 or newer.<br>
-  iPhone: coming soon to the App Store.
+  For Android 13 or newer, and iPhone with iOS 26 or newer.
 </p>
 
 <p align="center">
@@ -52,8 +52,8 @@
 
 ## Get ThumbFree
 
-- **Android 13 or newer:** ThumbFree is in a closed test on Google Play. [Join the test](https://kabrapratik28.github.io/ThumbFree/beta/): 2 steps, about 2 minutes.
-- **iPhone with iOS 26 or newer:** coming soon to the App Store.
+- **Android 13 or newer:** [get it on Google Play](https://play.google.com/store/apps/details?id=io.github.kabrapratik28.thumbfree).
+- **iPhone with iOS 26 or newer:** [get it on the App Store](https://apps.apple.com/app/id6817631006).
 - Setup downloads a speech model once, over Wi-Fi unless you allow mobile data. The English model is about 731 MB on Android and about 465 MB on iPhone.
 - The [website](https://kabrapratik28.github.io/ThumbFree/) shows how to use it and answers common questions. Or build it yourself: [Android](#build-the-android-app), [iPhone](#build-the-iphone-app).
 
@@ -190,3 +190,5 @@ Contributions are welcome. Start with [CONTRIBUTING.md](CONTRIBUTING.md) for set
 ## License
 
 ThumbFree is licensed under the [Apache License 2.0](LICENSE). See [NOTICE](NOTICE). ThumbFree builds on open-source engines, NVIDIA's Parakeet models and public data, which keep their own licenses: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) credits each one, with the model sources, the test audio and the dependencies.
+
+Apple, the Apple logo and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store is a service mark of Apple Inc. Google Play and the Google Play logo are trademarks of Google LLC.

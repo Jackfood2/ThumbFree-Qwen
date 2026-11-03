@@ -47,7 +47,7 @@ The prompts for each platform's images are in `android/prompts/` and `ios/`.
 | File | Use |
 |---|---|
 | `android-1-listening.png`, `android-2-typed.png`, `iphone-1-listening.png`, `iphone-2-typed.png` | Captures 1 and 2 from `../android/raw/` and `../ios/raw/` in a navy phone frame, 480 px wide with 256 colours |
-| `join-android-test.svg` | The Join the Android test button, with the bubble on navy |
+| `get-it-on-google-play.png`, `download-on-the-app-store.svg` | Google's and Apple's official store badges, the same files as the website's `img/` |
 | `buy-me-a-coffee.svg` | The Buy me a coffee button, navy on sunflower |
 | `make.py` | Makes the four screenshots again (needs Pillow); run it when those captures change |
 
