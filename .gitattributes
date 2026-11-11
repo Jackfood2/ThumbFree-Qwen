@@ -1,0 +1,9 @@
+# Patch files are read byte for byte by git apply, so they must keep the LF the
+# series was written with. A CRLF checkout (core.autocrlf=true on Windows) makes
+# every patch fail with "corrupt patch", which the first build then reports.
+third_party/patches/*.patch -text
+
+# Gradle and Kotlin sources are fine either way, but keep them LF for a stable diff.
+*.kt text eol=lf
+*.kts text eol=lf
+*.cmake text eol=lf
