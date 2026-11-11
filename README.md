@@ -18,6 +18,12 @@
 >
 > This build installs as **ThumbFree Qwen** (`io.github.jackfood2.thumbfreeqwen`), not under the official app id, so it
 > sits beside the Play version instead of replacing it. Both can be installed at once.
+>
+> Some banking apps refuse a sideloaded app that holds an accessibility service, and name it as coming from an unofficial
+> store. OCBC's app does. Its two remedies are to uninstall the app, or to turn off accessibility for it. Renaming or
+> repackaging this build does not change that verdict, because those apps check Play signing rather than the installer
+> field: an app installed with `-i com.android.vending` still fails while a genuinely Play-installed one passes. To dictate
+> while you bank, keep the official ThumbFree from Play for that, and turn this build's accessibility off.
 
 <p align="center">
   <a href="https://play.google.com/store/apps/details?id=io.github.kabrapratik28.thumbfree"><img src="docs/brand/common/readme/get-it-on-google-play.png" width="208" align="middle" alt="Get it on Google Play"></a>
