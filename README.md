@@ -15,6 +15,9 @@
 > 470M TurboCTC, the smallest and the fastest for English, and Alibaba's Qwen3-ASR 0.6B, which hears 30 languages. The
 > app, its screens and its defaults are the upstream ones. All credit for ThumbFree goes to its author; see
 > [Credits](#credits). The store badges below point at the official app, not at this fork's builds.
+>
+> This build installs as **ThumbFree Qwen** (`io.github.jackfood2.thumbfreeqwen`), not under the official app id, so it
+> sits beside the Play version instead of replacing it. Both can be installed at once.
 
 <p align="center">
   <a href="https://play.google.com/store/apps/details?id=io.github.kabrapratik28.thumbfree"><img src="docs/brand/common/readme/get-it-on-google-play.png" width="208" align="middle" alt="Get it on Google Play"></a>

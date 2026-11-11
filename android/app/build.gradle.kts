@@ -38,8 +38,8 @@ android {
         resValue("string", "app_name", brand.getProperty("appName"))
         minSdk = 33
         targetSdk = 37
-        versionCode = 4
-        versionName = "1.0"
+        versionCode = 5
+        versionName = "1.0-qwen"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         ndk { abiFilters += "arm64-v8a" }
         // Several C++ .so files (transcribe, ggml, one per CPU variant) share one C++ runtime.
