@@ -32,6 +32,8 @@ class LicensesTest {
             "Material icons by Google: Apache License 2.0",
             "Parakeet speech model by NVIDIA: NVIDIA Open Model License",
             "Canary speech model by NVIDIA: CC BY 4.0",
+            "Granite speech model by IBM: Apache License 2.0",
+            "Qwen3-ASR speech model by Alibaba: Apache License 2.0",
             "wordfreq word frequency data (the common-word list): CC BY-SA 4.0",
         ).inOrder()
         assertThat(lines.single { it.startsWith("Multilingual Parakeet") }).contains("CC BY 4.0")

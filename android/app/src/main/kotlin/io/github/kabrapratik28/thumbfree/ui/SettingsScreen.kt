@@ -87,7 +87,7 @@ private const val CC_BY_4 = "https://creativecommons.org/licenses/by/4.0/"
 internal val LICENSES = listOf(
     R.string.ui_license_engine, R.string.ui_license_vad, R.string.ui_license_cleanup, R.string.ui_license_libcxx,
     R.string.ui_license_icons, R.string.ui_license_parakeet, R.string.ui_license_parakeet_v3, R.string.ui_license_canary,
-    R.string.ui_license_wordfreq,
+    R.string.ui_license_granite, R.string.ui_license_qwen3, R.string.ui_license_wordfreq,
 )
 
 /**
@@ -253,6 +253,8 @@ private fun ModelChoice(setup: SetupState?, downloads: Map<ModelFile, DownloadSt
 fun modelName(model: ModelFile): Int = when (model) {
     Catalog.PARAKEET_TDT_V3_Q8 -> R.string.ui_model_multilingual
     Catalog.CANARY_180M_FLASH_Q8 -> R.string.ui_model_canary
+    Catalog.GRANITE_SPEECH_470M_Q8 -> R.string.ui_model_granite
+    Catalog.QWEN3_ASR_0_6B_Q8 -> R.string.ui_model_qwen3
     else -> R.string.ui_model_english
 }
 
@@ -261,6 +263,8 @@ fun modelName(model: ModelFile): Int = when (model) {
 internal fun modelDetail(model: ModelFile): String = when (model) {
     Catalog.PARAKEET_TDT_V3_Q8 -> stringResource(R.string.ui_model_multilingual_detail, model.languages.size)
     Catalog.CANARY_180M_FLASH_Q8 -> stringResource(R.string.ui_model_canary_detail)
+    Catalog.GRANITE_SPEECH_470M_Q8 -> stringResource(R.string.ui_model_granite_detail)
+    Catalog.QWEN3_ASR_0_6B_Q8 -> stringResource(R.string.ui_model_qwen3_detail)
     else -> stringResource(R.string.ui_model_english_detail)
 }
 
@@ -269,6 +273,8 @@ internal fun modelDetail(model: ModelFile): String = when (model) {
 fun modelNoun(model: ModelFile): Int = when (model) {
     Catalog.PARAKEET_TDT_V3_Q8 -> R.string.ui_setup_model_multilingual
     Catalog.CANARY_180M_FLASH_Q8 -> R.string.ui_setup_model_canary
+    Catalog.GRANITE_SPEECH_470M_Q8 -> R.string.ui_setup_model_granite
+    Catalog.QWEN3_ASR_0_6B_Q8 -> R.string.ui_setup_model_qwen3
     else -> R.string.ui_setup_model
 }
 

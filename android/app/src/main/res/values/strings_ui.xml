@@ -16,6 +16,8 @@
     <string name="ui_setup_model">English speech model</string>
     <string name="ui_setup_model_multilingual">Multilingual speech model</string>
     <string name="ui_setup_model_canary">Canary speech model</string>
+    <string name="ui_setup_model_granite">Granite speech model</string>
+    <string name="ui_setup_model_qwen3">Qwen3 speech model</string>
     <string name="ui_model_verified">Ready</string>
     <string name="ui_model_missing">Not downloaded</string>
     <string name="ui_model_missing_size">Not downloaded · %1$s</string>
@@ -28,6 +30,8 @@
     <string name="ui_model_english">English (recommended)</string>
     <string name="ui_model_multilingual">Multilingual</string>
     <string name="ui_model_canary">Canary (experimental)</string>
+    <string name="ui_model_granite">Granite (smallest and fastest)</string>
+    <string name="ui_model_qwen3">Qwen3-ASR (30 languages)</string>
     <string name="ui_allow">Allow</string>
     <string name="ui_turn_on">Turn on</string>
     <!-- On a phone without Android's accessibility list, over App info. %1$s is the app name. -->

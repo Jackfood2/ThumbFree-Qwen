@@ -10,6 +10,12 @@
   Free, open-source voice typing for Android and iPhone. It works offline, and your voice never leaves your phone.
 </p>
 
+> **This is a fork.** It is [ThumbFree](https://github.com/kabrapratik28/ThumbFree) by
+> [Pratik Kabra](https://github.com/kabrapratik28), with two more speech models to pick from: IBM's Granite Speech 5.0
+> 470M TurboCTC, the smallest and the fastest for English, and Alibaba's Qwen3-ASR 0.6B, which hears 30 languages. The
+> app, its screens and its defaults are the upstream ones. All credit for ThumbFree goes to its author; see
+> [Credits](#credits). The store badges below point at the official app, not at this fork's builds.
+
 <p align="center">
   <a href="https://play.google.com/store/apps/details?id=io.github.kabrapratik28.thumbfree"><img src="docs/brand/common/readme/get-it-on-google-play.png" width="208" align="middle" alt="Get it on Google Play"></a>
   <a href="https://apps.apple.com/app/id6817631006"><img src="docs/brand/common/readme/download-on-the-app-store.svg" width="162" align="middle" alt="Download on the App Store"></a>
@@ -186,6 +192,22 @@ Simulator builds need no Apple team. [ios/README.md](ios/README.md) has the feat
 ## Contributing
 
 Contributions are welcome. Start with [CONTRIBUTING.md](CONTRIBUTING.md) for setup, tests and the pull request checklist; [AGENTS.md](AGENTS.md) has the full rules, for people and AI agents alike. In short: every change comes with tests, nothing leaves the phone, and no private recordings go in the repository.
+
+## Credits
+
+This fork exists because of other people's work, and none of it is mine.
+
+- **[ThumbFree](https://github.com/kabrapratik28/ThumbFree)** by **Pratik Kabra**, the app this is a fork of. The whole
+  interface, the accessibility service, the dictation pipeline, the model store, the settings, the dictionary and the test
+  suite are his. This fork adds catalog entries for two models and a Windows build fix, and nothing else.
+- **[transcribe.cpp](https://github.com/handy-computer/transcribe.cpp)** by handy-computer, the on-device inference engine
+  that runs every model here, Granite and Qwen3-ASR among them.
+- **Speech models**, each with the license its maker gives it: NVIDIA's Parakeet Unified and Parakeet TDT 0.6B v3, NVIDIA's
+  Canary 180M Flash, IBM's Granite Speech 5.0 470M TurboCTC and Alibaba's Qwen3-ASR 0.6B. The GGUF conversions come from
+  [handy-computer](https://huggingface.co/handy-computer). [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) lists each
+  model's source, revision and license.
+- **Dictation cleanup** uses the WordFreq word lists, and **speech detection** uses Silero VAD; both keep their own
+  licenses, credited in the same file.
 
 ## License
 
